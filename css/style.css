@@ -1,32 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Nunito:ital,wght@1,500&family=Playfair+Display+SC:ital@1&display=swap');
 
 
-body{
+body {
   overflow-x: hidden;
   font-family: 'Alkatra', cursive;
-  
+  background-color: rgb(255, 255, 255);
 }
 
-h1{
-  font-size: 88px;
+h1 {
+  font-size: 80px;
 }
-h2{
+
+h2 {
   font-size: 38px;
 }
-h3{
+
+h3 {
   font-size: 28px;
 }
-h4{
+
+h4 {
   font-size: 18px;
 }
 
 
 .container {
-  width: auto;
+  /* width: auto;
   /* max-width: 1250px; */
   margin: auto;
   display: block;
   margin-right: 60px;
+  
 }
 
 .a {
@@ -35,7 +39,7 @@ h4{
 }
 
 .navigation_bar {
-  background: #fcfaface;
+  background: #ffffffce;
   /* box-shadow: 0 3px 5px; */
   padding: 0px 0px;
   position: fixed;
@@ -50,63 +54,100 @@ h4{
   gap: 22px;
   list-style: none;
   padding-top: 20px;
-  
+
 }
+
+
+.navigation_list li a {
+  color: black;
+  font-size: 16px;
+}
+
+
 
 .navigation_bar .navigation_list li {
 
   padding: 10px 0;
   display: inline-block;
-  
+
 
 }
 
 .logo {
-  padding: 0px 0;
+  padding: 0px 10px;
   display: inline-block;
   color: rgb(0, 0, 19);
   font-size: 70px;
 }
 
-main{
-
-margin: 30px;
-border-radius: 30px;
-}
 
 .wrapper {
+  /* padding-top: 33px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 35px;
+  background-color: blueviolet;
+  height: 0;
+  margin-right: 35px;
+  border: solid black; */
+  /* margin-top: 1px; */
+  /* background-color: black; */
   padding-top: 120px;
-padding-left: 30px;
-padding-right: 30px;
-margin-left: 30px;
-background-color: #f0a255;
+  border-radius: 25px;
+  
+  
 }
+
+
+/* .ac {
+  background-color: black;
+
+} */
 
 .column_11 {
   width: 50%;
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
- text-align: left;
- font-size: 48px;
+  /* text-align: left;
+ font-size: 48px; */
 }
+
+
+
+/* main{
+background-color: #f0a255;
+margin: 30px;
+border-radius: 30px;
+} */
+
+
 
 .column_12 {
   width: 50%;
   display: inline-block;
   float: right;
- text-align: right;
- /* font-size: 48px; */
+  text-align: right;
+
 }
 
 
-img{
+img {
   float: right;
   width: 100%;
-  margin-top: 80px;
-  background-blend-mode: lighten;
+  margin-top: 25px;
+
 }
 
-.navigation_list li a{
-  color: black;
-  font-size: 16px;
+
+.header {
+  background-color: #fef9f3;
+  padding: 50px;
+  padding-top: 0;
+  display: inline-block;
+  margin: 36px;
+ border-radius: 25px;
+}
+
+.head{
+  padding: 25px;
 }
