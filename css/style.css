@@ -135,6 +135,7 @@ img {
   float: right;
   width: 100%;
   margin-top: 25px;
+  mix-blend-mode: darken;
 
 }
 
