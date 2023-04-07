@@ -7,6 +7,7 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+
 h1 {
   font-size: 80px;
 }
@@ -25,28 +26,26 @@ h4 {
 
 
 .container {
-  /* width: auto;
-  /* max-width: 1250px; */
   margin: auto;
   display: block;
   margin-right: 60px;
-  
 }
+
 
 .a {
   color: rgb(0, 0, 5);
   text-decoration: none;
 }
 
+
 .navigation_bar {
-  background: #ffffffce;
-  /* box-shadow: 0 3px 5px; */
+  background: white;
   padding: 0px 0px;
   position: fixed;
   width: 100%;
-
-
+  
 }
+
 
 .navigation_list {
   display: inline-flex;
@@ -64,14 +63,11 @@ h4 {
 }
 
 
-
 .navigation_bar .navigation_list li {
-
   padding: 10px 0;
   display: inline-block;
-
-
 }
+
 
 .logo {
   padding: 0px 10px;
@@ -82,44 +78,15 @@ h4 {
 
 
 .wrapper {
-  /* padding-top: 33px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 35px;
-  background-color: blueviolet;
-  height: 0;
-  margin-right: 35px;
-  border: solid black; */
-  /* margin-top: 1px; */
-  /* background-color: black; */
   padding-top: 120px;
   border-radius: 25px;
-  
-  
 }
 
-
-/* .ac {
-  background-color: black;
-
-} */
 
 .column_11 {
   width: 50%;
-  /* display: inline-block; */
   float: left;
-  /* text-align: left;
- font-size: 48px; */
 }
-
-
-
-/* main{
-background-color: #f0a255;
-margin: 30px;
-border-radius: 30px;
-} */
-
 
 
 .column_12 {
@@ -127,7 +94,6 @@ border-radius: 30px;
   display: inline-block;
   float: right;
   text-align: right;
-
 }
 
 
@@ -136,7 +102,6 @@ img {
   width: 100%;
   margin-top: 25px;
   mix-blend-mode: darken;
-
 }
 
 
@@ -146,9 +111,18 @@ img {
   padding-top: 0;
   display: inline-block;
   margin: 36px;
- border-radius: 25px;
+  border-radius: 25px;
 }
 
-.head{
+
+.head {
   padding: 25px;
+}
+
+.get_app_btn {
+  background-color: #ff6525;
+ border-radius: 12px;
+ padding: 15px;
+ padding-top: 10px;
+ padding-bottom: 10px;
 }
