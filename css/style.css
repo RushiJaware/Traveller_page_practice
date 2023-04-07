@@ -10,20 +10,43 @@ body {
 
 h1 {
   font-size: 80px;
+  line-height: 100px;
 }
 
 h2 {
-  font-size: 38px;
+  font-size: 55px;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 40px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 28px;
+  line-height: 0%;
 }
 
+p{
+  /* line-height: 0%; */
+  white-space: wrap;
+}
+
+
+
+.h2_custome {
+  font-size: 22px;
+  color: #949495;
+  line-height: 0%;
+
+}
+
+.h2_custome2 {
+  font-size: 30px;
+  line-height: 0%;
+}
+
+
+/* navigation_bar starts here */
 
 .container {
   margin: auto;
@@ -43,7 +66,7 @@ h4 {
   padding: 0px 0px;
   position: fixed;
   width: 100%;
-  
+
 }
 
 
@@ -77,6 +100,11 @@ h4 {
 }
 
 
+/* navigation_bar ends heare  */
+
+
+
+
 .wrapper {
   padding-top: 120px;
   border-radius: 25px;
@@ -91,9 +119,9 @@ h4 {
 
 .column_12 {
   width: 50%;
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
-  text-align: right;
+
 }
 
 
@@ -121,8 +149,106 @@ img {
 
 .get_app_btn {
   background-color: #ff6525;
- border-radius: 12px;
- padding: 15px;
- padding-top: 10px;
- padding-bottom: 10px;
+  border-radius: 12px;
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+.box {
+  text-align: center;
+}
+
+
+
+
+
+.column_21 {
+  width: 100%;
+
+}
+
+
+/* 3rd section starts hear  */
+
+.container-wrapper {
+  /* white-space: nowrap; */
+}
+
+.container1,
+.container2 {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+
+.container1 {
+  /* background-color: #afec21; */
+  padding: 20px;
+}
+
+.container2 {
+  /* background-color: #fa096d;SSSSSS */
+  padding: 30px;
+}
+
+
+
+
+/* forthsection starts heare */
+
+.container-wrapper {
+  /* white-space: nowrap; */
+}
+
+.container4,
+.container5 {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+
+.container4 {
+  /* background-color: #afec21; */
+  padding: 20px;
+}
+
+.container5 {
+  /* background-color: #fa096d;SSSSSS */
+  padding: 30px;
+}
+
+.fa-user-circle {
+  color: #7997fa;
+ 
+  letter-spacing: -2px;
+}
+
+
+
+/* fift section starts header */
+
+
+
+
+
+.container6 {
+  background-color: #afec21;
+  padding: 36px;
+  border-radius: 25px;
+  display: inline-flex;
+  width: 15%;
+  /* vertical-align: top; */
+  margin: 26px;
+
+
+
+}
+.bb{
+  background-color: #fef9f3;
+  margin: 50px;
+  border-radius: 25px;
+
 }
