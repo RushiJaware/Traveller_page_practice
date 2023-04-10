@@ -134,12 +134,17 @@ img {
 
 
 .header {
-  background-color: #fef9f3;
+  background-color: #fff8f3;
   padding: 50px;
   padding-top: 0;
   display: inline-block;
   margin: 36px;
   border-radius: 25px;
+  /* border-bottom-right-radius: 100% ; */
+  /* border-start-end-radius: 100% 10px ; */
+  /* border-start-start-radius:100% 10px ; */
+  /* border-end-end-radius:100% 10px ; */
+  /* border-bottom-right-radius: 100% 30%; */
 }
 
 
@@ -155,7 +160,10 @@ img {
   padding-bottom: 10px;
 }
 
-
+.box_1 {
+  text-align: center;
+  padding-top: -0px;
+}
 
 .box {
   text-align: center;
@@ -222,11 +230,24 @@ img {
 
 .fa-user-circle {
   color: #7997fa;
-
   letter-spacing: -2px;
+  
 }
 
+.fa-plus{
+  background-color: #fe773d;
+  padding: 0px;
+  font-size: 25px;
+  border-radius: 100%;
+  letter-spacing: normal;
+}
 
+.fa-check{
+  color: #31b17b;
+  background-color: #e1f4ec;
+  border-radius: 100%;
+  padding: 5px;
+}
 
 /* fift section starts header */
 
@@ -269,7 +290,7 @@ img {
   border: solid #fe773d;
   border-radius: 10px;
   padding: 10px;
-
+  border-width: 2.5px;
 
 
 }
