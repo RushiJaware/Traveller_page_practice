@@ -26,7 +26,7 @@ h4 {
   line-height: 0%;
 }
 
-p{
+p {
   /* line-height: 0%; */
   white-space: wrap;
 }
@@ -222,7 +222,7 @@ img {
 
 .fa-user-circle {
   color: #7997fa;
- 
+
   letter-spacing: -2px;
 }
 
@@ -235,20 +235,48 @@ img {
 
 
 .container6 {
-  background-color: #afec21;
-  padding: 36px;
-  border-radius: 25px;
-  display: inline-flex;
-  width: 15%;
-  /* vertical-align: top; */
+  background-color: #fefffe;
+  padding: 29px;
+  border-radius: 32px;
   margin: 26px;
+  width: 245px;
 
 
 
 }
-.bb{
+
+.bb {
   background-color: #fef9f3;
   margin: 50px;
   border-radius: 25px;
+
+}
+
+.wrap {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+
+
+}
+
+.get_start_text {
+  font-size: 20px;
+  border: solid #fe773d;
+  border-radius: 10px;
+  padding: 10px;
+
+
+
+}
+
+.fa-arrow-right {
+  color: #fe773d;
+  float: right;
+  padding-top: 5px;
 
 }
