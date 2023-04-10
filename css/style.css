@@ -5,6 +5,7 @@ body {
   overflow-x: hidden;
   font-family: 'Alkatra', cursive;
   background-color: rgb(255, 255, 255);
+  /* background-color: #e9e9ed; */
 }
 
 
@@ -24,6 +25,15 @@ h3 {
 h4 {
   font-size: 28px;
   line-height: 0%;
+}
+h5{
+  font-size: 22px;
+
+}
+h6{
+  font-size: 16px;
+  line-height: 5px;
+  word-wrap: ;
 }
 
 p {
@@ -128,13 +138,13 @@ p {
 img {
   float: right;
   width: 100%;
-  margin-top: 25px;
+  margin-top: -20px;
   mix-blend-mode: darken;
 }
 
 
 .header {
-  background-color: #fff8f3;
+  background-color: #fff3e6;
   padding: 50px;
   padding-top: 0;
   display: inline-block;
@@ -160,9 +170,17 @@ img {
   padding-bottom: 10px;
 }
 
-.box_1 {
-  text-align: center;
-  padding-top: -0px;
+.fa-arrow-down {
+  /* /* text-align: center;
+
+  display: block;
+  /* padding: -35px; */
+  /* margin: px; */ 
+  color: #e0a720;
+  justify-content: center;
+  align-items: center;
+  margin: -60px; */
+
 }
 
 .box {
@@ -233,16 +251,20 @@ img {
 }
 
 .fa-user-circle {
-  color: #7997fa;
+  color: #e0a720;
   letter-spacing: 2px;
+  border: solid white;
+  border-radius: 100%;
+  border-width: thin;
 }
 
-.fa-plus {
-  background-color: #fe773d;
-  padding: 0px;
-  font-size: 25px;
+.fa-plus-circle {
+ 
+  color: #e0a720;
+  border: solid white;
   border-radius: 100%;
-  letter-spacing: normal;
+  border-width: thin;
+ 
 }
 
 .fa-check {
@@ -270,7 +292,7 @@ img {
 }
 
 .bb {
-  background-color: #fef9f3;
+  background-color: #fff3e6;
   margin: 50px;
   border-radius: 25px;
 
@@ -398,14 +420,14 @@ img {
   background-color: #ffffff;
   border-radius: 100%;
   padding: 15px;
-  box-shadow: hsl(271deg 86% 50%) 0px 9px 20px 5px
+  box-shadow: hsl(271deg 2% 47%) 0px 9px 20px 5px
 }
 
 .fa-instagram {
   background-color: #ffffff;
   border-radius: 100%;
   padding: 15px;
-  box-shadow: hsl(271deg 86% 50%) 0px 9px 20px 5px
+  box-shadow: hsl(271deg 2% 47%) 0px 9px 20px 5px
 }
 
 .fa-twitter {
@@ -413,14 +435,14 @@ img {
   background-color: #ffffff;
   border-radius: 100%;
   padding: 15px;
-  box-shadow: hsl(271deg 86% 50%) 0px 9px 20px 5px
+  box-shadow: hsl(271deg 2% 47%) 0px 9px 20px 5px
 }
 
 .fa-youtube-play {
   background-color: #ffffff;
   border-radius: 100%;
   padding: 15px;
-  box-shadow: hsl(271deg 86% 50%) 0px 9px 20px 5px
+  box-shadow: hsl(271deg 2% 47%) 0px 9px 20px 5px
 }
 
 
@@ -436,12 +458,82 @@ img {
 .app_download {
   mix-blend-mode: multiply;
   margin-top: -50px;
+  padding: 40px;
 }
 
 
 .end_cards {
-  width: 18%;
+  width: 130px;
   display: inline-flex;
-  margin: 0%;
+  margin-left: 6%;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* height: 20%; */
+
+}
+
+.end_cards_rating{
+  width: 180px;
+  display: inline-flex;
+  margin-left: 8%;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* height: 20%; */
+
+}
+
+.input{
+ 
+  border: solid #c5b3b3fb;
+  font-weight: 300;
+  border-width: thin;
+  padding: 15px;
+  width: 167px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right:none;
+  font-size: 20px;
+}
+
+.end_cards_rating .fa-arrow-right{
+  padding: 15px;
+  background: #fe6524;
+  color: white;
+  max-width: 50px;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mail_btn{
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.checked {
+  color: orange;
+}
+
+
+.hr_new{
+  display: flex;
+  float: left;
+  padding-bottom: 0px;
+  margin: -55px;
+  margin-left: 0px;
+}
+
+
+.hr_2{
+  border: 3px solid #fcbe50;
+  border-radius: 5px;
+  width: 60px;
+ 
+ 
 
 }
