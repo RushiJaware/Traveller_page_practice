@@ -214,24 +214,27 @@ img {
 .container4,
 .container5 {
   display: inline-block;
-  width: 45%;
+  width: 40%;
   vertical-align: top;
+  
 }
 
 .container4 {
   /* background-color: #afec21; */
   padding: 20px;
+  margin-top: 80px;
+  margin-left: 60px;
 }
 
 .container5 {
   /* background-color: #fa096d;SSSSSS */
   padding: 30px;
+ 
 }
 
 .fa-user-circle {
   color: #7997fa;
-  letter-spacing: -2px;
-  
+  letter-spacing: 2px;
 }
 
 .fa-plus{
@@ -301,3 +304,25 @@ img {
   padding-top: 5px;
 
 }
+
+.chitra{
+  display: inline-flex;
+margin-left: 25px;
+}
+
+
+.cc{
+  margin-left: -15px ;
+}
+.cd{
+  margin-left: -15px ;
+}
+
+.cf{
+  margin-left: -15px ;
+}
+
+.cg{
+  margin-left: -15px ;
+}
+
