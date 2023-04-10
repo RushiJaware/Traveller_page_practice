@@ -216,7 +216,7 @@ img {
   display: inline-block;
   width: 40%;
   vertical-align: top;
-  
+
 }
 
 .container4 {
@@ -229,7 +229,7 @@ img {
 .container5 {
   /* background-color: #fa096d;SSSSSS */
   padding: 30px;
- 
+
 }
 
 .fa-user-circle {
@@ -237,7 +237,7 @@ img {
   letter-spacing: 2px;
 }
 
-.fa-plus{
+.fa-plus {
   background-color: #fe773d;
   padding: 0px;
   font-size: 25px;
@@ -245,7 +245,7 @@ img {
   letter-spacing: normal;
 }
 
-.fa-check{
+.fa-check {
   color: #31b17b;
   background-color: #e1f4ec;
   border-radius: 100%;
@@ -305,24 +305,135 @@ img {
 
 }
 
-.chitra{
+.chitra {
   display: inline-flex;
-margin-left: 25px;
+  margin-left: 25px;
 }
 
 
-.cc{
-  margin-left: -15px ;
-}
-.cd{
-  margin-left: -15px ;
+.cc {
+  margin-left: -15px;
 }
 
-.cf{
-  margin-left: -15px ;
+.cd {
+  margin-left: -15px;
 }
 
-.cg{
-  margin-left: -15px ;
+.cf {
+  margin-left: -15px;
 }
 
+.cg {
+  margin-left: -15px;
+}
+
+
+/* card section ends hear  */
+
+/* download section starts heare 
+ */
+
+
+
+
+.footer_container {
+  margin: auto;
+  display: block;
+  margin-right: 60px;
+}
+
+
+
+
+.navigation_bar {
+  background: white;
+  padding: 0px 0px;
+  position: fixed;
+  width: 100%;
+
+}
+
+
+.footer_list {
+
+
+  display: inline-flex;
+  /* float: right; */
+  gap: 30px;
+  list-style: none;
+  margin-left: 60px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* align-content: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+
+}
+
+
+/* .footer_list li a {
+  color: black;
+  font-size: 16px;
+} */
+
+
+/* .navigation_bar .footer_list li {
+  padding: 10px 0;
+  display: inline-block;
+} */
+
+.footer_icon {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: flex-start;
+  flex-direction: row;
+  float: right;
+  padding-top: 15px;
+  gap: 50px;
+}
+
+.fa-facebook-official {
+  background-color: #ffffff;
+  border-radius: 100%;
+  padding: 15px;
+  box-shadow: hsl(271deg 86% 50%) 0px 9px 20px 5px
+}
+
+.fa-instagram {
+  background-color: #ffffff;
+  border-radius: 100%;
+  padding: 15px;
+  box-shadow: hsl(271deg 86% 50%) 0px 9px 20px 5px
+}
+
+.fa-twitter {
+
+  background-color: #ffffff;
+  border-radius: 100%;
+  padding: 15px;
+  box-shadow: hsl(271deg 86% 50%) 0px 9px 20px 5px
+}
+
+.fa-youtube-play {
+  background-color: #ffffff;
+  border-radius: 100%;
+  padding: 15px;
+  box-shadow: hsl(271deg 86% 50%) 0px 9px 20px 5px
+}
+
+
+.a_custome {
+  color: black;
+}
+
+
+
+/* app download
+ */
+
+.app_download {
+  mix-blend-mode: multiply;
+  margin-top: -50px;
+}
