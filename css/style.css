@@ -437,3 +437,11 @@ img {
   mix-blend-mode: multiply;
   margin-top: -50px;
 }
+
+
+.end_cards {
+  width: 18%;
+  display: inline-flex;
+  margin: 0%;
+
+}
